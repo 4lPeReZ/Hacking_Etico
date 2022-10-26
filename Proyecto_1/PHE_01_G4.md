@@ -105,7 +105,7 @@ Es una vulnerabilidad que permite al atacante insertar sentencias SQL de forma m
 ## Pasos para actualizar GLPI
 - Descargar la última versión de GLPI
 - Asegurarse de que el directorio donde vamos a instalar la nueva versión está vacío y extraer los archivos.
--Restaurar los archivos a los que hemos hecho copia previamente
+- Restaurar los archivos a los que hemos hecho copia previamente
 - Abrir GLPI en la consola de php e insertar el comando db:update para que los datos del backup se integren en la base de datos.
 
 ---
